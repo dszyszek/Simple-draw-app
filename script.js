@@ -55,4 +55,4 @@ draw.bugB.addEventListener('click',draw.fixB.bind(draw));
 draw.colB.forEach(x => x.addEventListener('click',draw.changeR.bind(draw)));
 draw.clear.addEventListener('click',draw.clearing.bind(draw));
 draw.boxC();
-document.body.addEventListener('mousemove',function(){event.preventDefault()})
+window.addEventListener('mousemove',function(){event.preventDefault()})
